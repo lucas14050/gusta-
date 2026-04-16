@@ -1,0 +1,63 @@
+.imc-container{
+    min-height: 100vh;
+    padding: 0;
+    font-family: "SN Pro", sans-serif;
+    background: #000;
+}
+.imc-header{
+    margin-top: 5vh;
+    float: left;
+}
+.imc-header h1{
+    width: 100%;
+    float: left;
+    color: #fff;
+}
+.imc-form{
+    margin-top: 55vh;
+    float: left;
+}
+input{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 18px;
+    border: 2px solid #e2e8f0;
+    border-radius: 200px;
+    font-family: inherit;
+    font-weight: 500;
+    color: #1e293b;
+    background: #f8fafc8c;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+}
+input::placeholder{
+    color: #ccc;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+button {
+    padding: 18px 24px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 200px;
+    cursor: pointer;
+    font-family: inherit;
+    letter-spacing: 0.3px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: linear-gradient(45deg, purple, blue);
+}
